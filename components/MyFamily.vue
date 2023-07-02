@@ -8,11 +8,11 @@
             </p>
         </div>
         <div class="flex justify-center p-4">
-            <img src="images/dibbles.png" class="w-1/2 p-8" />
-            <img src="images/meowmeow.png" class="w-1/2 p-8" />
+            <img src="/images/dibbles.png" class="w-1/2 p-8" />
+            <img src="/images/meowmeow.png" class="w-1/2 p-8" />
         </div>
         <div class="flex justify-center p-4">
-            <img src="images/puffcatty.png" class="w-1/2 p-8" />
+            <img src="/images/puffcatty.png" class="w-1/2 p-8" />
         </div>
     </section>
 </template>

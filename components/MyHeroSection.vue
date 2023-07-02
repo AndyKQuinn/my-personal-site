@@ -32,7 +32,7 @@
                 </a> -->
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="images/hackathon-smile.png" alt="andy-image" />
+                <img src="/images/hackathon-smile.png" alt="andy-image" />
             </div>
         </div>
     </section>
