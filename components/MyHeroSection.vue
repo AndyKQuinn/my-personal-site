@@ -1,10 +1,8 @@
 <script lang="ts" setup></script>
 
 <template>
-    <section
-        class="bg-white dark:bg-gradient-to-br from-purple-600 to-slate-900"
-    >
-        <div class="grid max-w-screen-xl mx-auto lg:grid-cols-12">
+    <section class="">
+        <div class="grid mx-auto lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
                     class="sm:mt-6 max-w-2xl mb-4 ml-6 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"

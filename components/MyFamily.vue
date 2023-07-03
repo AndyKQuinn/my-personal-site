@@ -1,18 +1,33 @@
 <script lang="ts" setup></script>
 
 <template>
-    <section class="bg-gradient-to-br from-purple-600 to-slate-900">
+    <section class="flex flex-col">
         <div>
-            <p class="text-4xl text-white flex justify-center mb-4">
+            <p class="text-4xl text-white flex justify-center mb-4 p-4">
                 My Family
             </p>
         </div>
-        <div class="flex justify-center p-4">
-            <img src="/images/dibbles.png" class="w-1/2 p-8" />
-            <img src="/images/meowmeow.png" class="w-1/2 p-8" />
-        </div>
-        <div class="flex justify-center p-4">
-            <img src="/images/puffcatty.png" class="w-1/2 p-8" />
+        <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-16 mx-16 items-center place-content-evenly"
+        >
+            <div class="flex flex-col justify-center">
+                <img src="/images/dibbles.png" class="max-h-96" />
+                <p class="flex p-2 text-white text-2xl justify-center">
+                    Dee Dee "The Dibbles"
+                </p>
+            </div>
+            <div class="flex flex-col justify-center">
+                <img src="/images/puffcatty.png" class="max-h-96" />
+                <p class="flex p-2 text-white text-2xl justify-center">
+                    Puff Catty or "P Kitty"
+                </p>
+            </div>
+            <div class="flex flex-col justify-center">
+                <img src="/images/meowmeow.png" class="max-h-96" />
+                <p class="flex p-2 text-white text-2xl justify-center">
+                    Moo Moo
+                </p>
+            </div>
         </div>
     </section>
 </template>

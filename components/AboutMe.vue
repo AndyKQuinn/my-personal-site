@@ -1,12 +1,12 @@
 <script lang="ts" setup></script>
 
 <template>
-    <section class="bg-gradient-to-bl from-slate-900 to-purple-600">
+    <section class="">
         <p class="flex justify-center text-4xl pt-6 text-white">About Andy</p>
         <div
-            class="flex grid sm:grid-cols-1 md:grid-cols-3 gap-6 md-gap-0 p-8 mt-2"
+            class="flex grid sm:grid-cols-1 md:grid-cols-3 gap-12 md:gap-24 p-8 mt-2"
         >
-            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600">
+            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600 m-4">
                 <img
                     src="/images/cat-guy-gazing-to-right.png"
                     alt="card-image"
@@ -24,7 +24,7 @@
                     cares? Give me cats!
                 </p>
             </div>
-            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600">
+            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600 m-4">
                 <img
                     class="h-1/2 w-full"
                     src="/images/possum-tinkerer.png"
@@ -43,7 +43,7 @@
                     your thing. I may be slow, but I'll sure get `er done!
                 </p>
             </div>
-            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600">
+            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600 m-4">
                 <img
                     src="/images/sloth-gamer.png"
                     alt="card-image"
