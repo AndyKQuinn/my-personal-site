@@ -6,9 +6,9 @@
         <div
             class="flex grid sm:grid-cols-1 md:grid-cols-3 gap-6 md-gap-0 p-8 mt-2"
         >
-            <div class="h-96 bg-white rounded-2xl shadow-2xl bg-purple-600">
+            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600">
                 <nuxt-img
-                    src="/images/cat-guy-gazing-to-right.png"
+                    src="./images/cat-guy-gazing-to-right.png"
                     alt="card-image"
                     class="h-1/2 w-full"
                 />
@@ -24,10 +24,10 @@
                     cares? Give me cats!
                 </p>
             </div>
-            <div class="h-96 bg-white rounded-2xl shadow-2xl bg-purple-600">
-                <nuxt-img
+            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600">
+                <img
                     class="h-1/2 w-full"
-                    src="/images/possum-tinkerer.png"
+                    src="./images/possum-tinkerer.png"
                     alt="card-image"
                 />
                 <p
@@ -43,9 +43,9 @@
                     your thing. I may be slow, but I'll sure get `er done!
                 </p>
             </div>
-            <div class="h-96 bg-white rounded-2xl shadow-2xl bg-purple-600">
+            <div class="h-96 rounded-2xl shadow-2xl bg-purple-600">
                 <img
-                    src="/images/sloth-gamer.png"
+                    src="./images/sloth-gamer.png"
                     alt="card-image"
                     class="h-1/2 w-full"
                 />
