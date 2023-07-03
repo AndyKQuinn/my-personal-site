@@ -2,7 +2,9 @@
 
 <template>
     <section class="">
-        <p class="flex justify-center text-4xl pt-6 text-white">About Andy</p>
+        <p class="flex justify-center text-4xl pt-6 sm:mt-6 text-white">
+            About Andy
+        </p>
         <div
             class="flex grid sm:grid-cols-1 md:grid-cols-3 gap-12 md:gap-24 p-8 mt-2"
         >
