@@ -16,18 +16,18 @@
                     using Golang, JavaScript, Python and whatever else sounds
                     fun to learn.
                 </p>
-                <a
-                    href="#"
+                <NuxtLink
+                    to="/portfolio"
                     class="inline-flex items-center justify-center px-5 py-3 mr-3 ml-10 text-base font-medium text-center text-white rounded-lg bg-purple-700 dark:hover:bg-gray-200 dark:hover:text-black focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
                 >
                     My Portfolio
-                </a>
-                <!-- <a
-                    href="#"
+                </NuxtLink>
+                <NuxtLink
+                    href="#family"
                     class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-200 dark:hover:text-black dark:focus:ring-gray-800"
                 >
-                    More about me
-                </a> -->
+                    My family
+                </NuxtLink>
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
                 <img src="/images/hackathon-smile.png" alt="andy-image" />

@@ -3,6 +3,7 @@
 <template>
     <MyHeroSection />
     <AboutMe />
+    <Divider />
     <MyFamily />
 </template>
 
